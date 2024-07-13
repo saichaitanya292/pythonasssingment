@@ -32,7 +32,7 @@ train_df = pd.read_csv('train.csv')
 train_df.to_sql('training_data', engine, index=False, if_exists='replace')
 ideal_functions_df.to_sql('ideal_functions', engine, index=False, if_exists='replace')
 
-print("Training data and ideal functions loaded into the SQLite database.")
+print("Training data and ideal functions loaded into the SQLite database")
 
 
 

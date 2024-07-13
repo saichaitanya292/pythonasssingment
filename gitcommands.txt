@@ -1,0 +1,4 @@
+git clone https://github.com/saichaitanya292/pythonasssingment.git
+cd pa
+git checkout develop
+git checkout -b feature/new-function
